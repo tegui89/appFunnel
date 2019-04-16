@@ -1,0 +1,36 @@
+{
+  "name": "app-funnel",
+  "version": "0.0.1",
+  "description": "Es una herramienta de marketing para crear embudos",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tegui89/appFunnel.git"
+  },
+  "keywords": [
+    "funnel",
+    "tegui",
+    "marketing",
+    "ventas",
+    "tools"
+  ],
+  "author": "Matias Gallastegui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tegui89/appFunnel/issues"
+  },
+  "homepage": "https://github.com/tegui89/appFunnel#readme",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
